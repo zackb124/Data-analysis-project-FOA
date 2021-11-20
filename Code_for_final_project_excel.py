@@ -27,6 +27,7 @@ df=pd.read_excel('Example for data base.xlsx')
 
 
 df=df.replace({'Category' : { 'Y' : "Antisemitic", 'W' : "Non-Antisemitic", 'U' : "Anti-Zionist" }})
+df
 
 
 # In[3]:
@@ -38,8 +39,6 @@ post_description=df["A short summary of the content- write briefly in your own w
 
 
 # In[7]:
-
-
 df
 
 
