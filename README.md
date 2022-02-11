@@ -116,7 +116,7 @@ Make sure that your Python version is 3.8 or higher. For running the scripts pro
   pip install gensim
 
   ```  
-* GENSIM
+* FPDF
   ```sh
   pip install fpdf
 
