@@ -17,10 +17,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
+
 [![MIT License][license-shield]][license-url]
 [![LinkedIn - Tzachi][linkedin-shield]][linkedin-url]
 
@@ -29,31 +26,40 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://media-exp1.licdn.com/dms/image/C4D0BAQHKksvOkJK5Gg/company-logo_200_200/0/1614627795928?e=1652918400&v=beta&t=g87sWMjE_JJ3wpQFm3OCCq7SYBnwxib_cMOMQYCRx6E">
+    <img src="https://media-exp1.licdn.com/dms/image/C4D0BAQHKksvOkJK5Gg/company-logo_200_200/0/1614627795928?e=1652918400&v=beta&t=g87sWMjE_JJ3wpQFm3OCCq7SYBnwxib_cMOMQYCRx6E" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Data analysis & Visualization project for FOA organization </h3>
 
-  
+&nbsp; 
+
+<div align="left">
+
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
 &nbsp; 
 
+<div align="left">
+  
 The following scripts builts for supporting the data visualization process of the FOA organization. Each folder contains a different kind of report, when the data cleaning is pretty similar. 
 
 The code built in Python and use multiple tools for data analysis & BI (pandas, matplotlib and so on).
 
 Please note that the data cleaning stage has been structured according to the unique FOA database elements.
 
-This project made as a part of the Digital Society Studies of TAU.
+This project made as a part of TAU Digital Society Studies.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
+&nbsp; 
 
+<div align="left">
+  
+ 
 ### Built With
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
@@ -69,7 +75,9 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+&nbsp; 
 
+<div align="left">
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -105,7 +113,9 @@ _Below is an example of how you can instruct your audience on installing and set
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+&nbsp; 
 
+<div align="left">
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -117,23 +127,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
+&nbsp; 
 
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
+<div align="left">
 
 <!-- CONTRIBUTING -->
 ## Contributing
