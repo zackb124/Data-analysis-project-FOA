@@ -50,14 +50,13 @@ def clean_data (xl,month,platform):
 
     #User input
 
-    platform_input = platorm
+    platform_input = platform
 
     #Define social platform
 
-    new_df =  new_df["Platform" ]== platform_input
+    new_df =  new_df[new_df["Platform" ]== platform_input]
 
     return new_df
-
 
 
 
