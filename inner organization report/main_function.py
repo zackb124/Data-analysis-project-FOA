@@ -1,14 +1,9 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[27]:
-
-
 import pandas as pd
 
 xl = "C:\\Users\\zachi\\Desktop\\final_project_22\\data_nov_21.xlsx"
 
-def clean_data (xl,month):
+#def clean_data (xl,month):
+def clean_data (xl,first_day,last_day):
     
     df=pd.read_excel(xl)
         #Remove unnecessary column - "removed 1"
@@ -43,40 +38,20 @@ def clean_data (xl,month):
         #Change the date time to the d/m/y
     from datetime import datetime
     df['Time stamp'] = pd.to_datetime(df['Time stamp']).dt.date #This function convert the date text into dt.date type
-    month = 'November'
-
-
-    new_df = df[pd.to_datetime(df["Time stamp"]).dt.strftime('%B') == month]
+    
+    date = df['Time stamp'].astype('datetime64[ns]')
+    dates = (first_day <= date) & (date <= last_day)
+    new_df = df[dates]
+    #month = 'November'
+#
+    
+    #dates = (first_day <= df["Time stamp"]) & (df["Time stamp"] < last_day)
+    #new_df = df[dates]
+    #new_df = df[pd.to_datetime(df["Time stamp"]).dt.strftime('%B') == month] #filter according to date ranges - including year & month
 
 
     return new_df
+    
 
-
-
-
-
-
-
-# In[22]:
-
-
-df = df=pd.read_excel("C:\\Users\\zachi\\Desktop\\final_project_22\\data_nov_21.xlsx")
-df = df.rename(columns={"חותמת זמן":"Time stamp"})
-
-    #Change the date time to the d/m/y
-from datetime import datetime
-df['Time stamp'] = pd.to_datetime(df['Time stamp']).dt.date #This function convert the date text into dt.date type
-user_input = 'November'
-
-
-#the_user_target_date = df["Time stamp"]>df["Time stamp"].dt.strftime('%B') == user_input
-#new_df = df[the_user_target_date]
-
-new_df = df[pd.to_datetime(df["Time stamp"]).dt.strftime('%B') == user_input]
-
-
-# In[ ]:
-
-
-
+#
 

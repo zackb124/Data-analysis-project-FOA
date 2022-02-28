@@ -8,8 +8,9 @@ import pandas as pd
 
 xl = "C:\\Users\\zachi\\Desktop\\final_project_22\\data_nov_21.xlsx"
 
-def clean_data (xl,month,platform):
-    
+#def clean_data (xl,month,platform):
+def clean_data (xl,first_day,last_day,platform):
+       
     df=pd.read_excel(xl)
         #Remove unnecessary column - "removed 1"
 
@@ -43,10 +44,12 @@ def clean_data (xl,month,platform):
         #Change the date time to the d/m/y
     from datetime import datetime
     df['Time stamp'] = pd.to_datetime(df['Time stamp']).dt.date #This function convert the date text into dt.date type
-    month = 'November'
+    #month = 'November'
 
-
-    new_df = df[pd.to_datetime(df["Time stamp"]).dt.strftime('%B') == month]
+    date = df['Time stamp'].astype('datetime64[ns]')
+    dates = (first_day <= date) & (date <= last_day)
+    new_df = df[dates]
+    #new_df = df[pd.to_datetime(df["Time stamp"]).dt.strftime('%B') == month]
 
     #User input
 
