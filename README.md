@@ -176,7 +176,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Tzachi Bakshi - [![LinkedIn - Tzachi][linkedin-shield]][linkedin-url]
+Tzachi Bakshi 
+  
+[![LinkedIn - Tzachi][linkedin-shield]][linkedin-url]
 
 Project Link - [https://github.com/FOA-TAU-Data-analysis-project](https://github.com/zackb124/FOA-TAU-Data-analysis-project)
 
