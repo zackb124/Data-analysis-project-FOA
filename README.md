@@ -36,7 +36,7 @@
     <img src="https://media-exp1.licdn.com/dms/image/C4E0BAQEBf4NDaKWz0A/company-logo_200_200/0/1519855868207?e=1652918400&v=beta&t=w25-UyuYTjhx1jBvDtTp44qfUyEJmOmXNc1GY6hMZP0" alt="Logo" width="80" height="80">
   </a>  
 
-  <h3 align="center">Data analysis & Visualization project for the FOA organization </h3>
+  <h3 align="center">Data analysis & visualization solution for the FOA organization </h3>
 
 &nbsp; 
 
