@@ -56,7 +56,8 @@ This project made as a part of TAU Digital Society Studies.
 
 * [Pandas](https://pandas.pydata.org/docs/user_guide/index.html#user-guide)
 * [Matplotlib](https://matplotlib.org/)
-* [SQLAlchemy](https://www.sqlalchemy.org/)
+* [GENSIM](https://radimrehurek.com/gensim/)
+* [NLTK](https://www.nltk.org/#)
 * [FPDF](https://pyfpdf.readthedocs.io/en/latest/)  
   
   
@@ -77,27 +78,28 @@ Make sure that your Python version is 3.8 or higher. For running the scripts pro
 * Pandas
   ```sh
   pip install pandas
-
   ```
 
  
 * Matplotlib
   ```sh
   pip install matplotlib
-
   ``` 
   
 
-* SQLAlchemy
+* NLTK
   ```sh
-  pip install sqlalchemy
-
+  pip install nltk
   ```
- 
+  
+
+* GENSIM
+  ```sh
+  pip install gensim
+  ```  
 * FPDF
   ```sh
   pip install fpdf
-
   ```    
 &nbsp; 
   
@@ -166,9 +168,7 @@ Project Link - [https://github.com/FOA-TAU-Data-analysis-project](https://github
 
 <!-- ACKNOWLEDGMENTS 
 ## Acknowledgments
-
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 * [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
@@ -177,7 +177,6 @@ Use this space to list resources you find helpful and would like to give credit 
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
 * [React Icons](https://react-icons.github.io/react-icons/search)
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 -->
 
@@ -197,4 +196,3 @@ Use this space to list resources you find helpful and would like to give credit 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/tzachi-bakshi/
 [product-screenshot]: images/screenshot.png
-
