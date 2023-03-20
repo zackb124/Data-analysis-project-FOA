@@ -88,18 +88,12 @@ Make sure that your Python version is 3.8 or higher. For running the scripts pro
   ``` 
   
 
-* NLTK
+* SQLAlchemy
   ```sh
-  pip install nltk
+  pip install sqlalchemy
 
   ```
-  
-
-* GENSIM
-  ```sh
-  pip install gensim
-
-  ```  
+ 
 * FPDF
   ```sh
   pip install fpdf
