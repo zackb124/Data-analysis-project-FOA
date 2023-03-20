@@ -56,7 +56,7 @@ This project made as a part of TAU Digital Society Studies.
 
 * [Pandas](https://pandas.pydata.org/docs/user_guide/index.html#user-guide)
 * [Matplotlib](https://matplotlib.org/)
-* [SQLAlchemy](https://radimrehurek.com/gensim/](https://www.sqlalchemy.org/)
+* [SQLAlchemy](https://www.sqlalchemy.org/)
 * [FPDF](https://pyfpdf.readthedocs.io/en/latest/)  
   
   
